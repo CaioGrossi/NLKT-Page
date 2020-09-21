@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-export const nltkIntro = styled.div`
+export const Introduction = styled.div`
   margin: 2rem 0;
 `;
 
-export const WrapperDemonstrationImages = styled.div`
+export const WrapperDemonstrationBox = styled.div`
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -16,7 +16,7 @@ export const WrapperDemonstrationImages = styled.div`
 
 `;
 
-export const WrapperImage = styled.div`
+export const DemostrationBox = styled.div`
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -30,12 +30,15 @@ export const WrapperImage = styled.div`
   border-radius: 2rem;
 
   > img {
-    width: 35rem;
+    width: 37rem;
   }
 
   > span {
     font-size: 1.6rem;
     text-align: center;
+  }
 
+  @media (max-width: 768px) {
+    margin: 2rem 0;
   }
 `;

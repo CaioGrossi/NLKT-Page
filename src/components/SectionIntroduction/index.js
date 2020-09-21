@@ -27,11 +27,10 @@ export const SectionIntroduction = () => {
 
         <p>
           Após  escolher o texto que sera analisado, ele passa pelos processos ilustrados na imagem ao lado. Primeiro a "tokenização" do
-          texto que é a separação deste em palavras, nesse processo já há toda uma analise do texto para tokenizar ele da forma correta, sem erros
-          por causa das pontuações, vírgulas ou abreviações. Segundo a análise léxica, que consiste em relacionar as variantes morfológicas aos
-          seus "lemas", as formas canônicas das palavras. Terceiro a análise sintática, que nada mais é do que extrair o significado da frase
-          e suas divisões de classes. Quarta a análise semântica, que é extrair o significado e relação da frase num todo e resolver problemas
-          como a anbiguidade. Por ultimo a análise pragmática, que é a análise de campo mais aberto do texto, relacionando este num todo, um exemplo
+          texto que é a separação deste em palavras, nesse processo já há toda uma análise do texto para tokenizar ele da forma correta, sem erros
+          por causa das pontuações, vírgulas ou abreviações. Segundo a análise sintatica, que consiste em relacionar as variantes morfológicas aos
+          seus "lemas", as formas canônicas das palavras. Terceiro a análise semântica, que é extrair o significado e relação da frase num todo e resolver problemas
+          como a anbiguidade. Um que não está ilustrado mas é presente é a análise pragmática, que é a análise de campo mais aberto do texto, relacionando este num todo, um exemplo
           seria de ele procurar refêrencias que faltam em uma frase em outras partes do texto.
         </p>
 

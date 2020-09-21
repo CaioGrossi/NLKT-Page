@@ -4,8 +4,9 @@ export const IntroductionBox = styled.div`
   display: flex;
   flex-direction: ${props => props.reverse ? 'row-reverse' : 'row'};
   justify-content: space-between;
-  margin-bottom: 2rem;
   align-items: center;
+
+  margin-bottom: 2rem;
 
   > img {
     width: 30rem;

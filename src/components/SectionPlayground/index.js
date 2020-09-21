@@ -14,7 +14,7 @@ const SectionPlayground = () => {
         <p>
           Agora que ja foi apresentado a você o que é o Processamento de Linguagem Natural e como fazer isso usando a biblioteca
           NLKT junto ao python, vamos ter um pouco de interação para realmente fixar o que foi mostrado. Para testar, clique nas frases
-          abaixo e veja qual seria a correspondencia desse comando em código.
+          abaixo e veja qual seria a correspondência desse comando em código.
         </p>
       </S.Intructions>
 
